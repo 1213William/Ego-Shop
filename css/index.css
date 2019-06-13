@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+}
+/*顶部栏样式开始*/
+.top{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    line-height: 40px;
+}
+.container{
+    width: 1226px;
+    margin: 0 auto;
+}
+.top .left-content{
+    float: left;
+}
+.top .shopCart{
+    float: right;
+    padding: 0 20px;
+    background-color: #c4c4c4;
+    margin: 0 10px;
+    position: relative;
+}
+.top .shopCart a{
+    display: block;
+    height: 40px;
+}
+.top .shopCart .goods{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background: darkkhaki;
+    display: none;
+}
+.top .shopCart:hover .goods{
+    display: block;
+}
+.top .login{
+    float: right;
+}
+.top a{
+    color: #b0b0b0;
+    font-size: 14px;
+}
+.top a:hover{
+    color: #ffffff;
+}
+.iconfont{
+    vertical-align: middle;
+}
+/*顶部栏样式结束*/
+
+
+/*导航栏样式开始*/
+
+/*导航栏样式结束*/
