@@ -1,64 +1,126 @@
 *{
     padding: 0;
     margin: 0;
+}
+input{
+    border: none;
+}
 
+ul{
+    list-style: none;
 }
 a{
     text-decoration: none;
-}
-/*顶部栏样式开始*/
-.top{
-    width: 100%;
-    height: 40px;
-    background-color: #333333;
-    line-height: 40px;
 }
 .container{
     width: 1226px;
     margin: 0 auto;
 }
-.top .left-content{
+.top{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+    font-size: 14px;
+}
+.top .top-left{
     float: left;
 }
 .top .shopCart{
     float: right;
     padding: 0 20px;
-    background-color: #c4c4c4;
-    margin: 0 10px;
-    position: relative;
-}
-.top .shopCart a{
-    display: block;
-    height: 40px;
-}
-.top .shopCart .goods{
-    height: 100px;
-    width: 200px;
-    position: absolute;
-    right: 0;
-    top: 40px;
-    background: darkkhaki;
-    display: none;
-}
-.top .shopCart:hover .goods{
-    display: block;
 }
 .top .login{
     float: right;
 }
 .top a{
     color: #b0b0b0;
-    font-size: 14px;
 }
 .top a:hover{
-    color: #ffffff;
+    color: #fff;
 }
 .iconfont{
     vertical-align: middle;
 }
-/*顶部栏样式结束*/
+
+/*顶部栏结束*/
 
 
-/*导航栏样式开始*/
+/*导航栏开始*/
 
-/*导航栏样式结束*/
+.sit-header{
+    width: 100%;
+    height: 100px;
+}
+.sit-header .header-logo{
+    float: left;
+}
+.sit-header .header-nav{
+    float: left;
+}
+.sit-header .header-search{
+    float: right;
+}
+.sit-header .header-logo a{
+    display: inline-block;
+}
+.sit-header .header-logo a img{
+    height: 100px;
+    width: 100px;
+}
+.sit-header .header-nav ul li{
+    display: inline-block;
+}
+
+.sit-header .header-nav .item{
+    height: 80px;
+    width: 100px;
+    line-height: 80px;
+}
+.sit-header .header-nav{
+    padding: 10px 40px;
+}
+.sit-header .header-nav a{
+    color: #000000;
+}
+/*搜索框开始*/
+.sit-header .header-search form{
+    margin-top: 23px;
+    height: 55px;
+    width: 250px;
+    position: relative;
+}
+.sit-header .header-search form .t{
+    position: absolute;
+    left: 0;
+    border: 1px solid #ff6700;
+    height: 53px;
+    width: 173px;
+    padding: 0 10px;
+    font-size: 14px;
+
+}
+
+.sit-header .header-search form .s{
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    height: 55px;
+    width: 55px;
+    border: 1px solid #ff6700;
+}
+.sit-header .header-search form span{
+    position: absolute;
+    font-size: 12px;
+    /*z-index: 5;*/
+}
+.sit-header .header-search form .one{
+    left: 10px;
+    top: 19px;
+}
+.sit-header .header-search form .two{
+    left: 65px;
+    top: 19px;
+}
+
